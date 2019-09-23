@@ -1,0 +1,137 @@
+\documentclass[14pt]{article}
+
+\def\inputGnumericTable{}  
+ 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{times}
+\usepackage{fancyvrb}
+\usepackage{stackrel}
+\usepackage{graphics,graphicx,float}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage{algorithm}
+\usepackage{tabularx,ragged2e,booktabs,caption}
+\usepackage{subfig}
+\usepackage{epstopdf}
+
+\usepackage{multicol}
+	\setlength{\columnsep}{1cm}
+	
+\usepackage{hyperref}
+\usepackage{pmboxdraw}
+\usepackage{babel}
+\usepackage{multirow}
+\usepackage{enumerate}
+
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                        
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}    
+
+%\usepackage{fullpage}
+
+
+\graphicspath{{./img/}}
+
+
+\usepackage{graphicx}
+ 
+\usepackage{color}
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+ 
+\usepackage{listings}
+\lstset{ frame=Ltb,
+     framerule=0pt,
+     aboveskip=0.5cm,
+     framextopmargin=3pt,
+     framexbottommargin=3pt,
+     framexleftmargin=0.4cm,
+     framesep=0pt,
+     rulesep=.4pt,
+     backgroundcolor=\color{gray97},
+     rulesepcolor=\color{black},
+     extendedchars=true,
+     %
+     stringstyle=\ttfamily,
+     showstringspaces = false,
+     basicstyle=\small\ttfamily,
+     commentstyle=\color{gray45},
+     keywordstyle=\bfseries,
+     %
+     numbers=left,
+     numbersep=15pt,
+     numberstyle=\tiny,
+     numberfirstline = false,
+     breaklines=true,
+     tabsize=2,
+   }
+ 
+% minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+   {\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+ 
+\lstdefinestyle{consola}
+   {basicstyle=\scriptsize\bf\ttfamily,
+    backgroundcolor=\color{gray75},
+   }
+ 
+\lstdefinestyle{C}
+   {language=C,
+   }
+\lstdefinestyle{bash}
+   {language=bash,
+   }
+   
+  \renewcommand{\lstlistingname}{Algoritmo}% Listing -> Algorithm
+\renewcommand{\lstlistlistingname}{Lista de \lstlistingname s}
+
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{Aprendizaje Automático\\~\\
+\textbf{Trabajo 2:
+Programación}\\
+~\\
+\vfill
+}
+
+
+
+\author{Iván López Justicia}	
+\date{}
+
+\maketitle
+
+\newpage 
+
+
+\vfill
+
+%\tableofcontents
+%\lstlistoflistings
+
+\vfill
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Ejercicio sobre la complejidad de H y el ruido}
+\subsection{(1 punto) Dibujar una gráfica con la nube de puntos de salida correspondiente.}
+\begin{enumerate}
+\item Considere N = 50, dim = 2, rango = [-50; +50] con simula_unif(N, dim, rango).
+
+	
+
+\end{document}
